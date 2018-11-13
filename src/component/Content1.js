@@ -5,7 +5,7 @@ class Content1 extends Component {
         return (
             <section className="section section-education container-fluid" id="education">
                 <h4>Education</h4>
-                <div id="js--wp-1" className="row profile-picture" style={{ marginTop: 40 }}>
+                <div id="js--wp-1" className="row profile-picture m-0" style={{ marginTop: 40 }}>
 
                     <div className="col">
                         <img id="profile-picture" src="resources/images/IMG_0262.JPG" alt="" />

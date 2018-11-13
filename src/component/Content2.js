@@ -4,7 +4,7 @@ class Content2 extends Component {
     render() {
         return (
             <section className="section section-stack container-fluid ">
-                <div className="row">
+                <div className="row m-0">
                     <h4>Development stack</h4>
                 </div>
                 <div className="container">

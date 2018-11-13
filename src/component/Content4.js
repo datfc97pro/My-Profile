@@ -4,7 +4,7 @@ class Content4 extends Component {
     render() {
         return (
             <section className="section section-contact container-fluid" id="contact">
-                <div className="row">
+                <div className="row m-0">
                     <h4>Let's work together</h4>
                 </div>
                 <div className="container">
