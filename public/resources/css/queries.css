@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1024px) {
+	.hero-text-box {
+		width: 100%;
+	}
+	.main-nav li{
+		margin: 40px 40px 0 0;
+		font-size: 90%;
+	}
+
+	.sticky .main-nav li {
+		font-size: 85%;
+	}
+	#typedtext {
+		transition: all 2s;
+	}	
+}
+
+@media only screen and (max-width: 767px) {
+	.main-nav li {
+		display: block;
+	}
+
+	#typedtext {
+		font-size: 1.5rem;
+		transition: all 2s;
+	}
+
+	.education {
+		text-align: center;
+	}
+
+	footer p {
+		font-size: 1rem;
+	}
+
+	.main-nav li {
+		margin: 20px 5% 0 0 ;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	#typedtext {
+		font-size: 1rem;
+		transition: all 2s;
+	}
+
+	.education {
+		text-align: center;
+	}
+
+	footer p {
+		font-size: 0.5rem;
+	}
+
+	.sticky {
+		position: relative;
+	}
+	
+}

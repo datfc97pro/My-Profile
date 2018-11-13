@@ -1,0 +1,299 @@
+/*---------REUSABLE COMPONENTS-----------*/
+p {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+a:link,
+a:visited{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+	width: 100%;
+	font-family: 'Lora', serif;
+	text-align: center;
+	text-shadow: 0px 1px 1px #000;
+}
+
+p {
+	font-size: 100%;
+}
+
+
+h4:after {
+	display: block;
+	height: 2px;
+	background-color: #eb9447;
+	content: " ";
+	width: 80px;
+	margin: 30px auto 50px;
+}
+
+.section:nth-child(odd) {
+	background-color: #f4f4f4;
+}
+
+.section {
+	padding: 90px 0;
+}
+
+.project-thumbnail {
+	height: 160px;
+}
+
+
+
+
+/*-------HEADER--------*/
+header a {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding-bottom: 3px;
+	-webkit-transition: border-bottom 0.2s;
+	-o-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+
+header a:hover,
+header a:active {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.6)),
+      to(rgba(0, 0, 0, 0.6))
+    ),  url(../images/4.jpg);
+	background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),  url(../images/4.jpg);
+	background-image: -o-linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),  url(../images/4.jpg);
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),  url(../images/4.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-animation: imageAnimation 3s linear;
+            animation: imageAnimation 3s linear;
+    background-attachment: fixed;
+}
+
+
+@-webkit-keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    -webkit-animation-timing-function: ease-in; 
+            animation-timing-function: ease-in;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    -webkit-animation-timing-function: ease-in; 
+            animation-timing-function: ease-in;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+
+/*----------MAIN-NAV----------*/ 
+
+
+.main-nav {
+	list-style: none;
+	color: #fff;
+}
+
+.main-nav li {
+	font-size: 1rem;
+	display: inline-block;
+	margin: 40px 5% 0 0;
+	float: right;
+}
+
+
+/*------------STICKY-NAV------------*/
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0 2px 2px #efefef;
+			box-shadow: 0 2px 2px #efefef;
+	transition: all 2s;
+}
+
+.sticky .main-nav {
+	height: 40px;
+}
+
+.sticky .main-nav li {
+	margin: 20px 5% 0 0 ;
+}
+
+
+.sticky .main-nav a:link,
+.sticky .main-nav a:visited
+ {
+ 	color: #555;
+ }
+
+ .sticky .main-nav a:hover {
+ 	border-bottom: 1px solid #555;
+ }
+
+
+
+
+
+/*---------------HERO-TEXT-BOX--------------*/
+
+.hero-text-box {
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+
+/*-----------SECTION-EDUCATION---------*/
+
+.section-education {
+	margin-top: 0;
+}
+
+.profile-picture, .year {
+	text-align: center;
+}
+
+#profile-picture {
+	transform: rotate(90deg);
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	overflow: hidden;	
+}
+
+.school {
+	margin: auto;
+}
+
+.education .card {
+	border: 0;
+}
+
+
+/*--------------SECTION-STACK---------------*/
+.section-stack .card {
+	border: 0;
+	background-color: #f4f4f4;
+}
+
+.section-stack .card-img-top {	
+	margin: auto;
+	width: 130px;
+	height: 130px;
+}
+
+.section-stack .row:nth-child(3) {
+	margin-top: 20px;
+}
+
+/*---------SECTION-PROJECTS---------*/
+
+
+.card {
+	width: 60%;
+	margin: auto;
+}
+
+.card-body {
+	padding: 7px 0 0 0 ;
+	text-align: center;
+}
+
+
+.section-project a {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #555;
+}
+
+.section-project a:hover {
+	color: #262626;
+}
+
+
+/*--------SECTION-CONTACT-------*/
+
+.social-links {
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+}
+
+.logo-container {
+	text-align: center;
+}
+
+/*------------FOOTER----------*/
+
+footer {
+	background-color: #333;
+	color: #888;
+	padding: 17px 0px;
+}
+
+footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+/*----------ANIMATION--------*/
+
+#js--wp-1, #js--wp-2 {
+	opacity: 0;
+}
+
+
+/*-------------project-toggle-----------*/
+.project-show-more {
+	max-height: 0;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.showing {
+	max-height: 250px;
+}
+
+#show-more-button:hover {
+	cursor: pointer;
+}
