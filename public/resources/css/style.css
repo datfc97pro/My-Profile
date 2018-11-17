@@ -3,6 +3,10 @@ p {
 	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
+body {
+	display: block;
+}
+
 a:link,
 a:visited{
 	text-decoration: none;

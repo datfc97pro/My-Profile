@@ -8,7 +8,7 @@ class Header extends Component {
             <header className="">
                 <nav>
                     <div className="row">
-                       
+
                         <ul className="main-nav col-12">
                             <li><a href="#contact">Contact</a></li>
                             {/* <li><a href="#projects">Projects</a></li> */}
@@ -20,6 +20,11 @@ class Header extends Component {
                 <div className="hero-text-box">
                     <h1 id="typedtext">aaa</h1>
                 </div>
+                <audio hidden id="myAudio" controls autoPlay>
+                    <source src="./Doi-Mat-Wanbi-Tuan-Anh.mp3" type="audio/ogg" />
+                </audio>
+
+
             </header>
 
 
