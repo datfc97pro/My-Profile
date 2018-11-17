@@ -7,7 +7,7 @@ class Header extends Component {
 
             <header className="">
                 <nav>
-                    <div className="row">
+                    <div className="row m-0">
 
                         <ul className="main-nav col-12">
                             <li><a href="#contact">Contact</a></li>
