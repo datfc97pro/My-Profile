@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
+
 class Header extends Component {
+
+   
+
     render() {
         return (
 
@@ -20,10 +24,8 @@ class Header extends Component {
                 <div className="hero-text-box">
                     <h1 id="typedtext">aaa</h1>
                 </div>
-                <audio hidden id="myAudio" controls autoPlay>
-                    <source src="./Doi-Mat-Wanbi-Tuan-Anh.mp3" type="audio/ogg" />
-                </audio>
-
+                {/* <audio hidden id="playAudio" src="./SpringTime-Yiruma_3cju.mp3" controls autoPlay></audio> */}
+                <iframe hidden src="./SpringTime-Yiruma_3cju.mp3" allow="autoplay" title="mp3"></iframe>
 
             </header>
 
