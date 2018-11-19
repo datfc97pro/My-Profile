@@ -8,23 +8,24 @@ class Content3 extends Component {
                 <div className="row m-0">
                     <h4>Here are some of my projects</h4>
                 </div>
-                <div className="row m-0 projects">
-                    <div className="row m-0">
-                        <div className="col-sm-4">
-                            <a href="https://reactjs-redux-firebase.netlify.com/">
-                                <div className="card">
-                                    <img src="https://i.imgur.com/c2zaIJl.jpg" className="card-img-top project-thumbnail" alt="" />
-                                    <div className="card-body">
-                                        <h5 className="card-title">
-                                            React-Redux-FireBase
+                <div className="container">
+                    <div className="row m-0 projects">
+                        <div className="row m-0">
+                            <div className="col-md-4">
+                                <a href="https://reactjs-redux-firebase.netlify.com/">
+                                    <div className="card">
+                                        <img src="https://i.imgur.com/c2zaIJl.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <div className="card-body">
+                                            <h5 className="card-title">
+                                                React-Redux-FireBase
                                         </h5>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div className="project-show-more mt-4">
-                        {/* <div className="row m-0">
+                        <div className="project-show-more mt-4">
+                            {/* <div className="row m-0">
                             <div className="col-4">
                                 <a href="https://thacquanghuy2705.000webhostapp.com/">
                                     <div className="card">
@@ -38,11 +39,12 @@ class Content3 extends Component {
                                 </a>
                             </div>
                         </div> */}
-                    </div>
-                    <p id="show-more-button" style={{ margin: '30px auto 20px' }}>
-                        Show more
+                        </div>
+                        <p id="show-more-button" style={{ margin: '30px auto 20px' }}>
+                            Show more
                         <i className="fas fa-caret-down ml-2" />
-                    </p>
+                        </p>
+                    </div>
                 </div>
             </section>
 
