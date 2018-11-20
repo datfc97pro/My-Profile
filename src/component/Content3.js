@@ -23,6 +23,18 @@ class Content3 extends Component {
                                     </div>
                                 </a>
                             </div>
+                            <div className="col-md-4">
+                                <a href="https://checklogin-react-router-firebase.netlify.com/">
+                                    <div className="card">
+                                        <img src="https://znews-photo.zadn.vn/Uploaded/qhj_pwqvdvicbu/2018_10_22/andydorn.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <div className="card-body">
+                                            <h5 className="card-title">
+                                                React-Router-Redux-FireBase (Check Login)
+                                        </h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                         <div className="project-show-more mt-4">
                             {/* <div className="row m-0">
