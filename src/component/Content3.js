@@ -14,7 +14,7 @@ class Content3 extends Component {
                             <div className="col-md-4">
                                 <a href="https://reactjs-redux-firebase.netlify.com/">
                                     <div className="card">
-                                        <img src="https://i.imgur.com/c2zaIJl.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <img src="https://images.vov.vn/h500/uploaded/1nuq1sd3egocrb7fgmumzw/2017_11_30/1_TTYC.jpg" className="card-img-top project-thumbnail" alt="" />
                                         <div className="card-body">
                                             <h5 className="card-title">
                                                 React-Redux-FireBase
@@ -30,6 +30,18 @@ class Content3 extends Component {
                                         <div className="card-body">
                                             <h5 className="card-title">
                                                 React-Router-Redux-FireBase (Check Login)
+                                        </h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="col-md-4">
+                                <a href="https://game-vuejs.netlify.com/">
+                                    <div className="card">
+                                        <img src="https://images.vov.vn/h500/uploaded/1nuq1sd3egocrb7fgmumzw/2017_11_30/3_ZMLY.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <div className="card-body">
+                                            <h5 className="card-title">
+                                                Game VueJS
                                         </h5>
                                         </div>
                                     </div>
