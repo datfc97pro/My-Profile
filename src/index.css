@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#show-more-button {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+}
+
+#projects {
+  position: relative;
+}
+
+.showing {
+  width: 100%;
+}

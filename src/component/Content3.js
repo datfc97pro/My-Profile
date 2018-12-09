@@ -12,21 +12,22 @@ class Content3 extends Component {
                     <div className="row m-0 projects">
                         <div className="row m-0">
                             <div className="col-md-4">
-                                <a href="https://reactjs-redux-firebase.netlify.com/">
+                                <a href="https://angular-datngo97.netlify.com/">
                                     <div className="card">
-                                        <img src="https://images.vov.vn/h500/uploaded/1nuq1sd3egocrb7fgmumzw/2017_11_30/1_TTYC.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <img src="https://angular.io/assets/images/logos/angular/angular.svg" className="card-img-top project-thumbnail" alt="" />
                                         <div className="card-body">
                                             <h5 className="card-title">
-                                                React-Redux-FireBase
+                                                MEAN Angular
                                         </h5>
                                         </div>
                                     </div>
                                 </a>
                             </div>
+
                             <div className="col-md-4">
                                 <a href="https://checklogin-react-router-firebase.netlify.com/">
                                     <div className="card">
-                                        <img src="https://znews-photo.zadn.vn/Uploaded/qhj_pwqvdvicbu/2018_10_22/andydorn.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" className="card-img-top project-thumbnail" alt="" />
                                         <div className="card-body">
                                             <h5 className="card-title">
                                                 React-Router-Redux-FireBase (Check Login)
@@ -38,7 +39,7 @@ class Content3 extends Component {
                             <div className="col-md-4">
                                 <a href="https://game-vuejs.netlify.com/">
                                     <div className="card">
-                                        <img src="https://images.vov.vn/h500/uploaded/1nuq1sd3egocrb7fgmumzw/2017_11_30/3_ZMLY.jpg" className="card-img-top project-thumbnail" alt="" />
+                                        <img src="https://vuejs.org/images/logo.png" className="card-img-top project-thumbnail" alt="" />
                                         <div className="card-body">
                                             <h5 className="card-title">
                                                 Game VueJS
@@ -49,20 +50,20 @@ class Content3 extends Component {
                             </div>
                         </div>
                         <div className="project-show-more mt-4">
-                            {/* <div className="row m-0">
-                            <div className="col-4">
-                                <a href="https://thacquanghuy2705.000webhostapp.com/">
-                                    <div className="card">
-                                        <img src="./resources/images/hero.jpg" className="card-img-top project-thumbnail"  alt=""/>
-                                        <div className="card-body">
-                                            <h5 className="card-title">
-                                                Omnifood
-                          </h5>
+                            <div className="row m-0">
+                                <div className="col-md-4">
+                                    <a href="https://reactjs-redux-firebase.netlify.com/">
+                                        <div className="card">
+                                            <img src="https://images.vov.vn/h500/uploaded/1nuq1sd3egocrb7fgmumzw/2017_11_30/1_TTYC.jpg" className="card-img-top project-thumbnail" alt="" />
+                                            <div className="card-body">
+                                                <h5 className="card-title">
+                                                    React-Redux-FireBase
+                                        </h5>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
-                        </div> */}
                         </div>
                         <p id="show-more-button" style={{ margin: '30px auto 20px' }}>
                             Show more
