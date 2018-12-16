@@ -149,7 +149,7 @@ class Content3 extends Component {
                       fontWeight: "400"
                     }}
                   >
-                    React - FireBase - Test check login
+                    React - FireBase - AHIHIHIHI
                   </p>
                 </div>
               </div>
