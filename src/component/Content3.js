@@ -102,7 +102,10 @@ class Content3 extends Component {
             </div>
             <div className="col-md-3 mb-5">
               <div className="card" style={{ width: "100%" }}>
-                <a href="https://checklogin-react-router-firebase.netlify.com/">
+                <a
+                  href="https://checklogin-react-router-firebase.netlify.com/"
+                  target="_b_blank"
+                >
                   <img
                     className="card-img-top img-fluid"
                     src="https://i.imgur.com/pD4k6ox.jpg?1"
@@ -131,7 +134,10 @@ class Content3 extends Component {
           <div className="row">
             <div className="col-md-3 mb-5">
               <div className="card" style={{ width: "100%" }}>
-                <a href="https://checklogin-react-router-firebase.netlify.com/">
+                <a
+                  href="https://reactjs-redux-firebase.netlify.com/"
+                  target="_b_blank"
+                >
                   <img
                     className="card-img-top img-fluid"
                     src="https://i.imgur.com/pD4k6ox.jpg?1"
