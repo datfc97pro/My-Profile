@@ -45,7 +45,7 @@ class Content3 extends Component {
             <div className="col-md-3 mb-5">
               <div className="card" style={{ width: "100%" }}>
                 <a
-                  href="https://angular-datngo97.netlify.com/"
+                  href="https://angular-datngo97.herokuapp.com/"
                   style={{ background: "#282c34" }}
                   target="_b_blank"
                 >
