@@ -166,6 +166,36 @@ class Content3 extends Component {
             <div className="col-md-3 mb-5">
               <div className="card" style={{ width: "100%" }}>
                 <a
+                  href="https://invoice-angular.herokuapp.com/"
+                  style={{ background: "#282c34" }}
+                  target="_b_blank"
+                >
+                  <img
+                    className="card-img-top img-fluid"
+                    style={{
+                      height: "250px"
+                    }}
+                    src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
+                    alt=""
+                  />
+                </a>
+                <div className="card-body">
+                  <p
+                    className="card-text"
+                    style={{
+                      fontSize: "25px",
+                      fontWeight: "400"
+                    }}
+                  >
+                    Invoices - Angular - Nodejs
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-5">
+              <div className="card" style={{ width: "100%" }}>
+                <a
                   href="https://checklogin-react-router-firebase.netlify.com/"
                   style={{ background: "#282c34" }}
                   target="_b_blank"
