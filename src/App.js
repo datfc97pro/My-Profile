@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        
         <Header></Header>
         <Content1></Content1>
         <Content2></Content2>
